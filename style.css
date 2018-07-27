@@ -2,12 +2,31 @@
 	width:100;
 	background-color:#c45e45;
 	display:flex;
+	justify-content: center;
+	text-align: center;
 }
 .right{
 	width:35;
 	border:5px solid red;
+	box-shadow: 5px 5px 5px black;
+	margin: 1%;
+	padding: 1%;
+	background-color: purple;
 }
 .left{
 	width:65;
 	border:5px solid black;
+}
+h1,
+h2{
+	font-size: 45px;
+}
+@media only screen and(max-width: 1024px){
+	.main{
+		display: flex;
+		flex-direction: column-reverse;
+	}
+	.right{
+
+	}
 }
